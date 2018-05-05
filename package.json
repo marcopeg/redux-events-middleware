@@ -1,10 +1,10 @@
 {
   "name": "redux-events-middleware",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Subscribe to redux actions as events emitter",
   "main": "index.js",
   "scripts": {
-    "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib",
+    "build": "node_modules/babel-cli/bin/babel.js src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "babel": {
