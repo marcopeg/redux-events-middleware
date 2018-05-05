@@ -1,0 +1,19 @@
+{
+  "name": "redux-events-middleware",
+  "version": "1.0.0",
+  "description": "Subscribe to redux actions as events emitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcopeg/redux-events-middleware.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcopeg/redux-events-middleware/issues"
+  },
+  "homepage": "https://github.com/marcopeg/redux-events-middleware#readme"
+}
