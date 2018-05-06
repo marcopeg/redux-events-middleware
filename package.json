@@ -1,6 +1,6 @@
 {
   "name": "redux-events-middleware",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Subscribe to redux actions as events emitter",
   "main": "index.js",
   "scripts": {
