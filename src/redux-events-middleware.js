@@ -25,7 +25,7 @@ class ReduxEvents {
                 .forEach((listener) => {
                     try {
                         if (listener.async) {
-                            setTimeout(() => listener.handler(action)(store.dispatch, store.getState))
+                            setTimeout(() => listener.handler(action, ctx)(store.dispatch, store.getState))
                         } else {
                             listener.handler(action, ctx)(store.dispatch, store.getState)
                         }
